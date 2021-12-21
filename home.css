@@ -1,0 +1,121 @@
+@media only screen and (max-width: 992px) {
+    * {
+        box-sizing: border-box;
+        font-family:  'Markazi Text', serif;
+      }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    [class*="col-"] {
+        float:left;
+        width: 100%;
+    }
+    #navigation-text {
+        list-style-type: none;
+        margin-top:15px;
+    }
+    #navigation-text a {
+        list-style-type: none;
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+    #banner {
+        background-image: url("img/nam/3.jpg");
+        height:500px;
+        width: 100%;
+        position: relative;
+    }
+    #content {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+    #content h1 {
+        color:white;
+        font-weight: bold;
+        margin:0px;
+    }
+    #content p {
+        color: white;
+        margin:0px;
+    }
+    #list-item a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: large;
+    }
+    #footer {
+        margin-top:50px;
+        border-top: 6px solid rgb(26, 196, 226);
+    }
+  }
+
+@media only screen and (min-width: 992px) {
+    * {
+        box-sizing: border-box;
+        font-family:  'Markazi Text', serif;
+      }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    .col-1 {float:left; width: 8.33%;}
+    .col-2 {float:left; width: 16.66%;}
+    .col-3 {float:left; width: 25%;}
+    .col-4 {float:left; width: 33.33%;}
+    .col-5 {float:left; width: 41.66%;}
+    .col-6 {float:left; width: 50%;}
+    .col-7 {float:left; width: 58.33%;}
+    .col-8 {float:left; width: 66.66%;}
+    .col-9 {float:left; width: 75%;}
+    .col-10 {float:left; width: 83.33%;}
+    .col-11 {float:left; width: 91.66%;}
+    .col-12 {float:left; width: 100%;}
+    #navigation-text {
+        list-style-type: none;
+        margin-top:15px;
+    }
+    #navigation-text a {
+        list-style-type: none;
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+    }
+    #banner {
+        background-image: url("img/nam/3.jpg");
+        height:500px;
+        width: 100%;
+        position: relative;
+    }
+    #content {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+    #content h1 {
+        color:white;
+        font-weight: bold;
+        margin:0px;
+    }
+    #content p {
+        color: white;
+        margin:0px;
+    }
+    #list-item a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: large;
+    }
+    #footer-content {
+        margin-right:50px;
+    }
+
+    #footer {
+        margin-top:50px;
+        border-top: 6px solid rgb(26, 196, 226);
+    }
+  }
